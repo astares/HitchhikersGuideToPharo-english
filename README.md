@@ -20,3 +20,13 @@ As a next step you must download the Pharo virtual machine (VM) and image.
 ```bash
 ./download.sh
 ```
+
+Finally to build the book use
+
+```bash
+./compile.sh
+```
+
+The `compile.sh` script will only compile the files that are included
+from the `pillar-conf.ston` file. If you write a new chapter, don't
+forget to reference it in this file to have it compiled.
