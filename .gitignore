@@ -29,6 +29,21 @@ HitchhikersGuideToPharo.url
 HitchhikersGuideToPharo.pdf
 
 #########################################################
+# Subfolder files
+#########################################################
+*.aux
+*.glo
+*.idx
+*.log
+*.out
+*.toc
+*.url
+*.pier.pdf
+*.pier.md
+*.pier.tex
+*.pier.html
+
+#########################################################
 # Ignore temporary ~ files
 #########################################################
 
