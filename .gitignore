@@ -3,6 +3,7 @@
 #########################################################
 /pillar
 /pharo
+/pillar-ui
 /pharo-ui
 /pharo-vm
 /Pharo.changes
