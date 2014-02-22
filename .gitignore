@@ -9,7 +9,24 @@
 /Pharo.changes
 /Pharo.image
 
+#########################################################
+# Ignore possible generated files
+#########################################################
 /crash.dmp
+/PharoDebug.log
+
+#########################################################
+# ignore generated files
+#########################################################
+HitchhikersGuideToPharo.aux
+HitchhikersGuideToPharo.glo
+HitchhikersGuideToPharo.idx
+HitchhikersGuideToPharo.log
+HitchhikersGuideToPharo.out
+HitchhikersGuideToPharo.tex
+HitchhikersGuideToPharo.toc
+HitchhikersGuideToPharo.url
+HitchhikersGuideToPharo.pdf
 
 #########################################################
 # Ignore temporary ~ files
