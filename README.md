@@ -15,5 +15,8 @@ git clone git@github.com:astares/HitchhikersGuideToPharo-english.git
 git clone git://github.com/astares/HitchhikersGuideToPharo-english.git
 ```
  
+As a next step you must download the Pharo virtual machine (VM) and image.
 
-Now you must download the Pharo VM and image
+```bash
+./download.sh
+```
