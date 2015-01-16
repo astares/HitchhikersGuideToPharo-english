@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 VM_INSTALL_URL="http://get.pharo.org/vm"
 IMAGE_URL="https://ci.inria.fr/pharo-contribution/job/Pillar/PHARO=30,VERSION=stable,VM=vm/lastSuccessfulBuild/artifact/Pillar.zip"
@@ -37,7 +37,7 @@ get_image() {
     done
 }
 prepare_image() {
-    ./pharo Pharo.image eval --save "StartupPreferencesLoader allowStartupScript: false."
+    ./pharo Pharo.image --no-default-preferences eval --save "StartupPreferencesLoader allowStartupScript: false."
     ./pharo Pharo.image eval --save "Deprecation raiseWarning: false; showWarning: false. 'ok'"
 }
 
